@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test assigment</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <header class="header">
+        <ul class="header_list">
+            <li class="header_item">
+                Gmail
+            </li>
+
+            <li class="header_item">
+                Зображення
+            </li>
+
+            <li class="header_item">
+                <img src='./images/apps.svg' class="header_image">
+            </li>
+
+            <li class="header_item">
+                <button type="button" class="header_button">Увійти</button>
+            </li>
+        </ul>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="section_logo">
+                <img id="Oddity" src='./images/google_logo.svg' alt="oddity" class="section_image">
+            </div>
+
+        <form class="form">
+            <div class="inputs">
+                <input type="text" class="inputs__form">
+                <img src="./images/lupa.png" class="input_icon">
+                <img src="./images/icon-qwerty.png" class="qwerty_icon">
+                <img src="./images/voice1.png" class="voice_icon">
+                <img src="./images/goo.png" class="goo_icon">
+            </div>
+        </form>
+
+        <div class="section_button">
+            <button type="button" class="button_left">Пошук Google</button>
+            <button type="button" onclick="changeImage()" class="button_right">Мені пощастить</button>
+           
+        </div>
+        <div class="language">
+            <span class="section_span">
+                Мова Google: <span class="section_span_language">English</span>
+            </span>
+        </div>
+      
+        </section>
+    </main>
+        <script src="./index.js"></script>
+</body>
+</html>
